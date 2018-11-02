@@ -1,0 +1,15 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include "image.h"
+
+
+
+image *lecture_image(FILE *f){
+	image *img = malloc(sizeof(image));
+	fscanf(f,"%d %d",&(img->nl),&(img->nc));
+}
+
+
+void ecriture_image(FILE *f, image *);
+
+void inverse_image(image *); /* Im[i] = MaxLevel - Im[i] */

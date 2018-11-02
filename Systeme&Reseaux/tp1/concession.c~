@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <pthread.h>
+#include <unistd.h>
+
+typedef struct thread_data_t {
+	int pid;
+	int *stock;
+	pthread_mutex_t mutex;
+} thread_data_t ;
+
+#define CAPACITE_CONCESSION 10
+#define TEMPS_MOY_ENTRE_VENTE 5
+int stockLocal = 0;
+
+
+void *activite_concession(void *pdata){
+	
+	thread_data_t *stockL = (thread_data_t *)(pdata);
+	while(1){
+		if(stockLocal <= 10 && stockL->stock > 0) {
+			printf("Pas de vente de voiture, le stock de la concession %d est :%d\n",stockL->pid,stockLocal);
+			stockLocal++;
+			(*stockL->stock)--;
+		}
+		else if(stockLocal > 0) {
+		printf("Concession %d :	Vente d'une voiture\n",stockL->pid);
+		stockLocal--;
+    	}
+    	sleep(TEMPS_MOY_ENTRE_VENTE);
+    	}
+   }
+
+
+int creation_concession(pthread_t *t,thread_data_t *stockL){
+  /* Creation de la concession */
+
+  return pthread_create(t,
+			NULL,
+			activite_concession,
+			stockL);
+}

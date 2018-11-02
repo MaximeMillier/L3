@@ -1,0 +1,65 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <pthread.h>
+
+typedef struct thread_data_t {
+	int pid;
+	int *stock;
+	pthread_mutex_t mutex;
+	pthread_cond_t condition;
+} thread_data_t ;
+
+
+#define NMAX_CONCESSION 3 
+int creation_usine(pthread_t *t, int *stock);
+int creation_concession(pthread_t *t,thread_data_t *stock_concession);
+int creation_entrepot(pthread_t *t,int *stock);
+
+
+int main(int argc, char*argv[]){
+  int r = 1; /* report value */
+  int i;
+  
+  /* Modele d'une usine */
+  pthread_t usine;
+  
+  /* Modele d'un entrepot */
+  pthread_t entrepot;
+  int stock = 0;
+  
+  /* Modele d'une concession */
+  pthread_t concession[NMAX_CONCESSION];
+  
+  /*create threads*/
+  r = creation_usine(&usine, &stock);
+  if (r != 0)
+    fprintf(stderr,"Usine echec !");
+    
+  r = creation_entrepot(&entrepot, &stock);
+  if (r != 0)
+    fprintf(stderr,"Entrepot echec !");
+    
+  for(i=0; i < NMAX_CONCESSION; i++){
+  	thread_data_t *stock_concession = malloc(sizeof(thread_data_t));
+  	stock_concession->stock = &stock;
+  	stock_concession->pid = i;
+  	r = creation_concession(&(concession[i]),stock_concession);
+  	if(r != 0)
+  	fprintf(stderr,"Concession echec!");
+  }
+  
+  /* block until all threads complete*/
+   pthread_join(usine,NULL);
+   pthread_join(entrepot,NULL);
+   for(i=0; i<NMAX_CONCESSION ; i++) {
+   	pthread_join(concession[i],NULL);
+   }
+   return 0;
+}
+
+
+
+
+
+
+

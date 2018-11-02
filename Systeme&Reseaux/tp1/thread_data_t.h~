@@ -1,0 +1,9 @@
+typedef struct thread_data_t {
+	int pid;
+	int stock;
+} thread_data_t ;
+
+
+
+
+

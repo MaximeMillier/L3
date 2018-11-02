@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/tp4.dir/image.c.o CMakeFiles/tp4.dir/main.c.o  -o tp4 
