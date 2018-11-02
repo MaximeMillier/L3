@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/max-ubuntu/Documents/SystemeEtReseaux/tp4/image.c" "/home/max-ubuntu/Documents/SystemeEtReseaux/tp4/cmake-build-debug/CMakeFiles/tp4.dir/image.c.o"
-  "/home/max-ubuntu/Documents/SystemeEtReseaux/tp4/main.c" "/home/max-ubuntu/Documents/SystemeEtReseaux/tp4/cmake-build-debug/CMakeFiles/tp4.dir/main.c.o"
+  "/home/max-ubuntu/git/L3/Systeme&Reseaux/tp4/image.c" "/home/max-ubuntu/git/L3/Systeme&Reseaux/tp4/cmake-build-debug/CMakeFiles/tp4.dir/image.c.o"
+  "/home/max-ubuntu/git/L3/Systeme&Reseaux/tp4/main.c" "/home/max-ubuntu/git/L3/Systeme&Reseaux/tp4/cmake-build-debug/CMakeFiles/tp4.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

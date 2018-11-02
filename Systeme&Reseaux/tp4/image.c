@@ -36,14 +36,18 @@ image *lecture_image(FILE *f) {
 
 
 
-void ecriture_image(FILE *f, image *img);
+void ecriture_image(FILE *f, image *img){
 
-void inverse_image(image *img){                        /* Im[i] = MaxLevel - Im[i] */
 
-    int i = 0;
-    while(img->pixels[i] != NULL) {
-        img->pixels[i] = 255 - img->pixels[i];
-        //printf("%d", img->pixels[i]);
-        i++;
+}
+
+
+
+
+
+void inverse_image(image *img){
+
+    for (int i = 0; i < (img->nl * img->nc); ++i) {
+        img->pixels[i] = img->ng - img->pixels[i];
     }
 }

@@ -43,10 +43,10 @@ RM = /home/max-ubuntu/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.4892.24
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/max-ubuntu/Documents/SystemeEtReseaux/tp4
+CMAKE_SOURCE_DIR = "/home/max-ubuntu/git/L3/Systeme&Reseaux/tp4"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/max-ubuntu/Documents/SystemeEtReseaux/tp4/cmake-build-debug
+CMAKE_BINARY_DIR = "/home/max-ubuntu/git/L3/Systeme&Reseaux/tp4/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tp4.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/tp4.dir/flags.make
 
 CMakeFiles/tp4.dir/image.c.o: CMakeFiles/tp4.dir/flags.make
 CMakeFiles/tp4.dir/image.c.o: ../image.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/max-ubuntu/Documents/SystemeEtReseaux/tp4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/tp4.dir/image.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tp4.dir/image.c.o   -c /home/max-ubuntu/Documents/SystemeEtReseaux/tp4/image.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/max-ubuntu/git/L3/Systeme&Reseaux/tp4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/tp4.dir/image.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tp4.dir/image.c.o   -c "/home/max-ubuntu/git/L3/Systeme&Reseaux/tp4/image.c"
 
 CMakeFiles/tp4.dir/image.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tp4.dir/image.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/max-ubuntu/Documents/SystemeEtReseaux/tp4/image.c > CMakeFiles/tp4.dir/image.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/max-ubuntu/git/L3/Systeme&Reseaux/tp4/image.c" > CMakeFiles/tp4.dir/image.c.i
 
 CMakeFiles/tp4.dir/image.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tp4.dir/image.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/max-ubuntu/Documents/SystemeEtReseaux/tp4/image.c -o CMakeFiles/tp4.dir/image.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/max-ubuntu/git/L3/Systeme&Reseaux/tp4/image.c" -o CMakeFiles/tp4.dir/image.c.s
 
 CMakeFiles/tp4.dir/main.c.o: CMakeFiles/tp4.dir/flags.make
 CMakeFiles/tp4.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/max-ubuntu/Documents/SystemeEtReseaux/tp4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/tp4.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tp4.dir/main.c.o   -c /home/max-ubuntu/Documents/SystemeEtReseaux/tp4/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/max-ubuntu/git/L3/Systeme&Reseaux/tp4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/tp4.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tp4.dir/main.c.o   -c "/home/max-ubuntu/git/L3/Systeme&Reseaux/tp4/main.c"
 
 CMakeFiles/tp4.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tp4.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/max-ubuntu/Documents/SystemeEtReseaux/tp4/main.c > CMakeFiles/tp4.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/max-ubuntu/git/L3/Systeme&Reseaux/tp4/main.c" > CMakeFiles/tp4.dir/main.c.i
 
 CMakeFiles/tp4.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tp4.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/max-ubuntu/Documents/SystemeEtReseaux/tp4/main.c -o CMakeFiles/tp4.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/max-ubuntu/git/L3/Systeme&Reseaux/tp4/main.c" -o CMakeFiles/tp4.dir/main.c.s
 
 # Object files for target tp4
 tp4_OBJECTS = \
@@ -95,7 +95,7 @@ tp4: CMakeFiles/tp4.dir/image.c.o
 tp4: CMakeFiles/tp4.dir/main.c.o
 tp4: CMakeFiles/tp4.dir/build.make
 tp4: CMakeFiles/tp4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/max-ubuntu/Documents/SystemeEtReseaux/tp4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable tp4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/max-ubuntu/git/L3/Systeme&Reseaux/tp4/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable tp4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tp4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/tp4.dir/clean:
 .PHONY : CMakeFiles/tp4.dir/clean
 
 CMakeFiles/tp4.dir/depend:
-	cd /home/max-ubuntu/Documents/SystemeEtReseaux/tp4/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/max-ubuntu/Documents/SystemeEtReseaux/tp4 /home/max-ubuntu/Documents/SystemeEtReseaux/tp4 /home/max-ubuntu/Documents/SystemeEtReseaux/tp4/cmake-build-debug /home/max-ubuntu/Documents/SystemeEtReseaux/tp4/cmake-build-debug /home/max-ubuntu/Documents/SystemeEtReseaux/tp4/cmake-build-debug/CMakeFiles/tp4.dir/DependInfo.cmake --color=$(COLOR)
+	cd "/home/max-ubuntu/git/L3/Systeme&Reseaux/tp4/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/max-ubuntu/git/L3/Systeme&Reseaux/tp4" "/home/max-ubuntu/git/L3/Systeme&Reseaux/tp4" "/home/max-ubuntu/git/L3/Systeme&Reseaux/tp4/cmake-build-debug" "/home/max-ubuntu/git/L3/Systeme&Reseaux/tp4/cmake-build-debug" "/home/max-ubuntu/git/L3/Systeme&Reseaux/tp4/cmake-build-debug/CMakeFiles/tp4.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/tp4.dir/depend
 
