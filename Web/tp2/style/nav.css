@@ -1,0 +1,9 @@
+div.lien{
+	background-color: lightgrey;
+}
+
+#barrenavigation a{
+	display: inline;
+	background-color: lightgrey;
+	color: red;
+}
