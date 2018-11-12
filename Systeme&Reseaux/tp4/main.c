@@ -25,10 +25,10 @@ int main(int argc, char *argv[]){
   /* Traitement de l'image */
   inverse_image(I);
 
-  /* Ecriture de l'image 
+  /* Ecriture de l'image */
   f = fopen(argv[2],"w");
   ecriture_image(f,I);    
-  fclose(f);*/
+  fclose(f);
   
   return EXIT_SUCCESS;
 }
