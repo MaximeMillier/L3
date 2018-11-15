@@ -8,8 +8,12 @@ public class TestArbre {
 		for (int i = 0; i < 25 ; i++ ) {
 			a.addNoeud(new Random().nextInt(100+1));
 		}
+		//System.out.println(a);
+		//System.out.println("valeur rechercher 5, trouvé : " + a.searchNoeud(5));
+		//a.ParcoursPrefixe();
+		//a.ParcoursInfixe();
+		a.ParcoursPostfixe();
 		System.out.println(a);
-		System.out.println("valeur rechercher 5, trouvé : " + a.searchNoeud(5));
 	}
 
 }

@@ -80,4 +80,34 @@ public class ArbreBin {
       return false;
     }
   }
+
+
+  public void ParcoursPrefixe() {
+	   System.out.println(getRacine());
+	    if (getFg() != null)
+        getFg().ParcoursPrefixe();
+	    if (getFd() != null)
+	      getFd().ParcoursPrefixe();
+      }
+
+
+  public void ParcoursInfixe() {
+	   if (getFg() != null)
+	     getFg().ParcoursInfixe();
+	   System.out.println(getRacine());
+	   if (getFd() != null)
+	     getFd().ParcoursInfixe();
+    }
+
+
+
+    public void ParcoursPostfixe() {
+  	   if (getFg() != null)
+  	    getFg().ParcoursPostfixe();
+  	   if (getFd() != null)
+  	    getFd().ParcoursPostfixe();
+  	System.out.println(getRacine());
+      }
+
+
 }
