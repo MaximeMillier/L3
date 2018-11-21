@@ -12,11 +12,15 @@ class PartSnake {
 
     draw(ctx) {
 
-        ctx.fillStyle = 'green';
+        ctx.fillStyle = 'coral';
         ctx.strokeStyle = 'black';
 
         ctx.fillRect(this.x, this.y, 20, 20);
         ctx.strokeRect(this.x, this.y, 20, 20);
+    }
+
+    move(ctx){
+        this.x += 1;
     }
 }
 
@@ -48,12 +52,6 @@ window.onload = function() {
 
     createSnake(4);
 
-    ctx.fillStyle = 'white';
-    ctx.strokeStyle = 'black';
-
-    ctx.fillRect(0,0,lc,hc);
-    ctx.strokeRect(0,0,lc,hc);
-
     requestAnimationFrame(anime);
     ctx.restore();
 
@@ -65,10 +63,19 @@ function drawSnake() {
     })
 }
 
+function moveSnake() {
+    snake.forEach((r) => {
+        r.move();
+    });
+}
+
+
 function anime() {
-    //ctx.clearRect(0, 0, lc, hc);
+    ctx.clearRect(0, 0, lc, hc);
 
     drawSnake();
+
+    moveSnake();
 
     requestAnimationFrame(anime);
 }
