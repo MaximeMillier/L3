@@ -4,21 +4,18 @@
  * Author: Gilles MENEZ
  * Created: 2018
  */
-#include <stdio.h>
-#include <unistd.h>
-#include <stdlib.h>
-#include <assert.h>
-#include <string.h>
-#include <ctype.h>
-#include <arpa/inet.h>
+ #include <stdio.h>
+ #include <stdlib.h>
+ #include <unistd.h>
+ #include <sys/types.h>
+ #include <sys/stat.h>
+ #include <dirent.h>
+ #include <string.h>
+ #include <arpa/inet.h>
 
 #include "util.h"
 #include "id3_tagheader.h"
 #include "id3_frame.h"
-
-#include "genre.c" /* definit la variable "genre" pour 
-		      les frames "TCON" */
-
 /*============================================*/
 /* Analyse d'un header de frame :
    => On recupere les infos via le parametre fh
