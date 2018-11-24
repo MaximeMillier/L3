@@ -17,7 +17,7 @@ class Cercle extends AFormeGeometrique {
   }
 
   public String toString(){
-    return "Cercle : rayon = " + this.rayon + "Perimetre = " + perimetre() + "Aire = " + aire();
+    return "Cercle : rayon = " + this.rayon + "cm" + " Perimetre = " + perimetre() + "cm " + "Aire = " + aire() + "cm2 ";
   }
 
 

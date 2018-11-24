@@ -20,7 +20,7 @@ class Rectangle extends AFormeGeometrique {
   }
 
   public String toString(){
-    return "Rectangle : Largeur = " + this.largeur + "longueur = " + this.largeur + "Perimetre = " + perimetre() + "Aire = " + aire();
+    return "Rectangle : Largeur = " + this.largeur + "cm " + "longueur = " + this.longueur + "cm " + "Perimetre = " + perimetre() + "cm " + "Aire = " + aire() + "cm2";
   }
 
 

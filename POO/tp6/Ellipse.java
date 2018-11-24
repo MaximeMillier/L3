@@ -19,7 +19,7 @@ class Ellipse extends AFormeGeometrique {
   }
 
   public String toString(){
-    return "Ellipse : grand Rayon = " + this.grandRayon + "petit Rayon = " + this.petitRayon + "Perimetre = " + perimetre() + "Aire = " + aire();
+    return "Ellipse : grand Rayon = " + this.grandRayon + "cm " + "petit Rayon = " + this.petitRayon + "cm " + "Perimetre = " + perimetre() + "cm " + "Aire = " + aire() + "cm2";
   }
 
 

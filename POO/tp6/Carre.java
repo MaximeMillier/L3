@@ -17,7 +17,7 @@ class Carre extends AFormeGeometrique {
   }
 
   public String toString(){
-    return "Carré : coté = " + this.cote + "Perimetre = " + perimetre() + "Aire = " + aire();
+    return "Carré : coté = " + this.cote + "cm" + " Perimetre = " + perimetre() + "cm" + " Aire = " + aire() + "cm2";
   }
 
 
