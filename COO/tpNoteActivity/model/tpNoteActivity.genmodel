@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/tpNoteActivity/src-gen" creationIcons="false"
+    editDirectory="/tpNoteActivity.edit/src-gen" editorDirectory="/tpNoteActivity.editor/src-gen"
+    modelPluginID="tpNoteActivity" modelName="TpNoteActivity" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="10.0"
+    copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>tpNoteActivity.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="TpNoteActivity" disposableProviderFactory="true" ecorePackage="tpNoteActivity.ecore#/">
+    <genClasses ecoreClass="tpNoteActivity.ecore#//Activity">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//Activity/chambre"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//Activity/salledebain"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//Activity/cuisine"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//Activity/salon"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//Chambre">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//Chambre/dort"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//Chambre/sereveille"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//SalleDeBain">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//SalleDeBain/douche"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//Cuisine">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//Cuisine/prepareomelette"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//Cuisine/preparelard"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//Salon">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//Salon/boire"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//Salon/controlflow"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//Dort">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//Dort/sereveille"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//SeReveille">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute tpNoteActivity.ecore#//SeReveille/weekend"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//SeReveille/dort"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute tpNoteActivity.ecore#//SeReveille/timer"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//SeReveille/controlflow"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//ControlFlow">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//ControlFlow/Douche"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute tpNoteActivity.ecore#//ControlFlow/HeureDepart"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//ControlFlow/prendrebus"/>
+      <genOperations ecoreOperation="tpNoteActivity.ecore#//ControlFlow/DiminutionTimer"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//ControlFlow.1">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute tpNoteActivity.ecore#//ControlFlow.1/HeureDepart"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//ControlFlow.1/boire"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//ControlFlow.1/prendrebus"/>
+      <genOperations ecoreOperation="tpNoteActivity.ecore#//ControlFlow.1/DiminutionTimer"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//ControlFlow.2">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute tpNoteActivity.ecore#//ControlFlow.2/HeureDepart"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//ControlFlow.2/prepareomelette"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//ControlFlow.2/preparelard"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//ControlFlow.2/prendrebus"/>
+      <genOperations ecoreOperation="tpNoteActivity.ecore#//ControlFlow.2/DiminutionTimer"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//Douche">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//Douche/controlflow"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//ControlFlow.3">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute tpNoteActivity.ecore#//ControlFlow.3/HeureDepart"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//ControlFlow.3/etirement"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//ControlFlow.3/prendrebus"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//PrepareOmelette">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//PrepareOmelette/controlflow"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//PrepareLard">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//PrepareLard/controlflow"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//Boire">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//Boire/controlflow"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//ControlFlow.4">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute tpNoteActivity.ecore#//ControlFlow.4/HeureDepart"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//ControlFlow.4/prendrebus"/>
+      <genOperations ecoreOperation="tpNoteActivity.ecore#//ControlFlow.4/DiminutionTimer"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//ControlFlow.5">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute tpNoteActivity.ecore#//ControlFlow.5/HeureDepart"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//ControlFlow.5/neweclass22"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//ControlFlow.5/prendrebus"/>
+      <genOperations ecoreOperation="tpNoteActivity.ecore#//ControlFlow.5/DiminutionTimer"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//ControlFlow.6">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute tpNoteActivity.ecore#//ControlFlow.6/HeureDepart"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//ControlFlow.6/preparerassiete"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//ControlFlow.6/reciterprogramme"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//ControlFlow.6/prendrebus"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//Etirement">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//Etirement/controlflow"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//preparerAssiete">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//preparerAssiete/controlflow"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//ReciterProgramme">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//ReciterProgramme/controlflow"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//Profite">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//Profite/controlflow"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//ControlFlow.7">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute tpNoteActivity.ecore#//ControlFlow.7/HeureDepart"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//ControlFlow.7/brosselesdents"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//ControlFlow.7/prendrebus"/>
+      <genOperations ecoreOperation="tpNoteActivity.ecore#//ControlFlow.7/DiminutionTimer"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//BrosseLesDents">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActivity.ecore#//BrosseLesDents/controlflow"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActivity.ecore#//PrendreBus"/>
+  </genPackages>
+</genmodel:GenModel>

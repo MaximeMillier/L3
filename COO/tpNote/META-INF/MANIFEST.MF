@@ -1,7 +1,16 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: tpNote
-Bundle-SymbolicName: tpNote; singleton:=true
+Bundle-Name: %pluginName
+Bundle-SymbolicName: tpNote;singleton:=true
+Automatic-Module-Name: tpNote
 Bundle-Version: 0.1.0.qualifier
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: JavaSE-10
+Export-Package: tpNote,
+ tpNote.impl,
+ tpNote.util
 Require-Bundle: org.eclipse.emf.ecore;visibility:=reexport,
  org.eclipse.core.runtime
+Bundle-ActivationPolicy: lazy

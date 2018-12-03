@@ -15,7 +15,6 @@ public class Noeud {
     this.fg = fg;
   }
 
-
   public Noeud (int valeur){
     this.valeur = valeur;
   }
@@ -49,7 +48,6 @@ public class Noeud {
     }
     return "    " + this.getValeur() + "\n" + this.fg.getValeur() + "\t" + this.fd.getValeur();
   }
-
 
 
 }

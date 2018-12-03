@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated tpNoteActivity -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="tpNoteActivity.presentation.TpNoteActivityModelWizardID"
+            name="%_UI_TpNoteActivityModelWizard_label"
+            class="tpNoteActivity.presentation.TpNoteActivityModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/TpNoteActivityModelFile.gif">
+         <description>%_UI_TpNoteActivityModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated tpNoteActivity -->
+      <editor
+            id="tpNoteActivity.presentation.TpNoteActivityEditorID"
+            name="%_UI_TpNoteActivityEditor_label"
+            icon="icons/full/obj16/TpNoteActivityModelFile.gif"
+            extensions="tpnoteactivity"
+            class="tpNoteActivity.presentation.TpNoteActivityEditor"
+            contributorClass="tpNoteActivity.presentation.TpNoteActivityActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

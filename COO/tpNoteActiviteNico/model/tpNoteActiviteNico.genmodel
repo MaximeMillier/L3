@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/tpNoteActiviteNico/src-gen" creationIcons="false"
+    editDirectory="/tpNoteActiviteNico.edit/src-gen" editorDirectory="/tpNoteActiviteNico.editor/src-gen"
+    modelPluginID="tpNoteActiviteNico" modelName="TpNoteActiviteNico" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="10.0"
+    copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>tpNoteActiviteNico.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="TpNoteActiviteNico" disposableProviderFactory="true" ecorePackage="tpNoteActiviteNico.ecore#/">
+    <genClasses ecoreClass="tpNoteActiviteNico.ecore#//Activity">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference tpNoteActiviteNico.ecore#//Activity/node2"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference tpNoteActiviteNico.ecore#//Activity/node1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference tpNoteActiviteNico.ecore#//Activity/node3"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActiviteNico.ecore#//Node1">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActiviteNico.ecore#//Node1/controlflow"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute tpNoteActiviteNico.ecore#//Node1/activite"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActiviteNico.ecore#//Node3">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute tpNoteActiviteNico.ecore#//Node3/activite"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActiviteNico.ecore#//Node2">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActiviteNico.ecore#//Node2/controlflow"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute tpNoteActiviteNico.ecore#//Node2/activite"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActiviteNico.ecore#//ControlFlow">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActiviteNico.ecore#//ControlFlow/node2"/>
+    </genClasses>
+    <genClasses ecoreClass="tpNoteActiviteNico.ecore#//ControlFlow.1">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference tpNoteActiviteNico.ecore#//ControlFlow.1/node3"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
