@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="602de752-b626-44f8-801f-78d841ef737c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/POO/tp6/src/ComplexeCartesien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/tp6/src/ComplexePolaire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/tp6/src/ComplexeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/tp6/src/Icomplexe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/tp6/src/TestComplexe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POO/tp6/src/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/L3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/L3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COO/tpNote/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/COO/tpNote/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COO/tpNote/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/COO/tpNote/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COO/tpNote/model/tpNote.aird" beforeDir="false" afterPath="$PROJECT_DIR$/COO/tpNote/model/tpNote.aird" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COO/tpNote/model/tpNote.ecore" beforeDir="false" afterPath="$PROJECT_DIR$/COO/tpNote/model/tpNote.ecore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COO/tpNote/model/tpNote.genmodel" beforeDir="false" afterPath="$PROJECT_DIR$/COO/tpNote/model/tpNote.genmodel" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COO/vide.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/POO/tp5/ArbreBin.java" beforeDir="false" afterPath="$PROJECT_DIR$/POO/tp5/src/ArbreBin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POO/tp5/Noeud.java" beforeDir="false" afterPath="$PROJECT_DIR$/POO/tp5/src/Noeud.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POO/tp5/TestArbre.java" beforeDir="false" afterPath="$PROJECT_DIR$/POO/tp5/src/TestArbre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POO/tp5/TestNoeud.java" beforeDir="false" afterPath="$PROJECT_DIR$/POO/tp5/src/TestNoeud.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POO/tp6/out/production/L3/AppletForme.class" beforeDir="false" afterPath="$PROJECT_DIR$/POO/tp6/out/production/L3/AppletForme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POO/tp6/src/AppletForme.java" beforeDir="false" afterPath="$PROJECT_DIR$/POO/tp6/src/AppletForme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/tp4/test.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,10 +12,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/POO/tp6/src/test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/POO/tp6/src/TestComplexe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Web/tp3/tp3.php">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/POO/tp6/src/AppletForme.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -52,7 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/POO/tp6/src/AppletForme.java" />
         <option value="$PROJECT_DIR$/POO/tp6/src/Icomplexe.java" />
         <option value="$PROJECT_DIR$/POO/tp6/src/ComplexeCartesien.java" />
         <option value="$PROJECT_DIR$/POO/tp6/src/ComplexePolaire.java" />
@@ -61,6 +67,7 @@
         <option value="$PROJECT_DIR$/POO/tp6/src/AFormeGeometrique.java" />
         <option value="$PROJECT_DIR$/POO/tp6/src/test.java" />
         <option value="$PROJECT_DIR$/POO/tp5/src/Noeud.java" />
+        <option value="$PROJECT_DIR$/POO/tp6/src/AppletForme.java" />
       </list>
     </option>
   </component>
@@ -73,6 +80,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,26 +96,27 @@
             <path>
               <item name="L3" type="b2602c69:ProjectViewProjectNode" />
               <item name="L3" type="462c0819:PsiDirectoryNode" />
-              <item name="Web" type="462c0819:PsiDirectoryNode" />
+              <item name="POO" type="462c0819:PsiDirectoryNode" />
+              <item name="tp6" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="L3" type="b2602c69:ProjectViewProjectNode" />
               <item name="L3" type="462c0819:PsiDirectoryNode" />
-              <item name="Web" type="462c0819:PsiDirectoryNode" />
-              <item name="tp3" type="462c0819:PsiDirectoryNode" />
+              <item name="POO" type="462c0819:PsiDirectoryNode" />
+              <item name="tp6" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543779587211" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544034650592" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -177,16 +186,19 @@
       <workItem from="1543749382801" duration="12000" />
       <workItem from="1543757144519" duration="1636000" />
       <workItem from="1543821527620" duration="66000" />
+      <workItem from="1543821606930" duration="382000" />
+      <workItem from="1544031157383" duration="451000" />
+      <workItem from="1544033098201" duration="610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9383000" />
+    <option name="totallyTimeSpent" value="10826000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28898427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -205,7 +217,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -251,13 +263,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/POO/tp6/src/AppletForme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/POO/tp6/src/ComplexeCartesien.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -269,13 +274,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/POO/tp6/src/TestComplexe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -321,13 +319,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/POO/tp6/src/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/POO/tp6/src/Cercle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -356,6 +347,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Web/tp3/tp3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/POO/tp6/src/Point.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -363,8 +361,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web/tp3/tp3.php">
+    <entry file="file://$PROJECT_DIR$/POO/tp5/src/TestArbre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POO/tp2/src/Polynome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POO/tp2/src/Couleur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POO/tp6/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POO/tp6/src/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POO/tp6/src/TestComplexe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/awt/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="1960" column="16" selection-start-line="1960" selection-start-column="16" selection-end-line="1960" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COO/tpNote/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/POO/tp6/src/AppletForme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
