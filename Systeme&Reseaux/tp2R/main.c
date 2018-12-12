@@ -40,6 +40,25 @@ error0:
     return ret;*/
 }
 
+int generate_melody (double amplitude,
+                       int32_t SampleRate,
+                       int32_t FrameCount,
+                       int16_t  *buffer_p)
+{
+  int ret = 0;
+  int freq[15] =  {264, 297, 330, 352, 396, 440, 495, 528, 594, 660, 704, 792, 880, 990, 1056};
+  for (size_t i = 0; i < 16; i++) {
+    ret = generate_sinusoid((double)freq[i],
+      amplitude,
+      SampleRate,
+      FrameCount,
+      buffer_p);
+  }
+  return ret;
+}
+
+
+
 
 // Write audio samples in a CSV file
 size_t write_CSV_file(char* filename, int32_t FrameCount,
@@ -101,8 +120,7 @@ int main(int argc, char *argv[])
     }
 
     /*Fill the buffer*/
-    ret = generate_sinusoid ( frequency,
-                             amplitude,
+    ret = generate_melody (amplitude,
                            SAMPLE_RATE,
                            FrameCount,
                            buffer_p);
