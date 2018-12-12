@@ -89,25 +89,23 @@ int popEvent(node_t ** head) {
 //*    - Input:  6) The pointer to the waiting time counter                    *
 //*    - Output: int: A bool type for whether the pop was successful or not    *
 //******************************************************************************
-int popBuffer(FILE *f,node_t ** head,node_t ** bhead,double *busyTime,double *residenceTime,double *waitingTime,double currentTime) {
+int popBuffer(FILE *f,node_t ** head,node_t ** bhead,double *busyTime,double *residenceTime,double *waitingTime,double currentTime, double SERV_TIME) {
 	double newTime,serviceTime,wt;
-    int retval = -1;
 
-    // COMPLETEZ LE CODE
-    
+
     // Calculating statistics
     *busyTime += serviceTime;
     wt = (currentTime - (*bhead)->time);
     wt = (wt > 0)? wt : 0;
     *waitingTime += wt;
     *residenceTime += (serviceTime+wt);
+
     // Write the data to file
-	fprintf(f, "%d,%lf,%lf,%lf\n",(*bhead)->callerID,(*bhead)->time,wt,(serviceTime+wt));
-    
-    // COMPLETEZ LE CODE
-    
-    free(*bhead);
-    return retval;
+		fprintf(f, "%d,%lf,%lf,%lf\n",(*bhead)->callerID,(*bhead)->time,wt,(serviceTime+wt));
+
+
+
+    return popEvent(bhead);
 }
 
 //******************************************************************************

@@ -2,22 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e4e5ec8-42dd-4ca4-9b45-84c332f06091" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Align.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp6/AFormeGeometrique.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp6/AFormeGeometrique.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp6/AppletForme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp6/AppletForme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp6/Carre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp6/Carre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp6/Cercle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp6/Cercle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp6/Ellipse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp6/Ellipse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp6/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp6/Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tp6/TestForme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tp6/TestForme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AFormeGeometrique.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AFormeGeometrique.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/L3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/L3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/L3/AppletForme.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/L3/AppletForme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/L3/ComplexeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/L3/ComplexeUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/L3/TestComplexe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/L3/TestComplexe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/L3/TestForme.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/L3/TestForme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/L3/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AFormeGeometrique.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Align.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppletForme.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppletForme.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppletForme.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AppletForme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppletForme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Carre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Carre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cercle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cercle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ellipse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ellipse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Carre$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Carre.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cercle$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cercle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComplexeCartesien.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComplexePolaire.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComplexeUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComplexeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComplexeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ellipse$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ellipse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Icomplexe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rectangle$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestComplexe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestComplexe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestComplexe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestForme.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TestForme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestForme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +60,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestForme.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="135">
               <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -57,12 +73,12 @@
         <entry file="file://$PROJECT_DIR$/src/AFormeGeometrique.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppletForme.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
@@ -74,11 +90,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ComplexeUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-267" />
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Carre.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+            <state relative-caret-position="390">
+              <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Cercle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            <state relative-caret-position="405">
+              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,7 +133,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
+            <state relative-caret-position="780">
               <caret line="58" column="102" selection-start-line="58" selection-start-column="102" selection-end-line="58" selection-end-column="102" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -123,7 +146,7 @@
         <entry file="file://$PROJECT_DIR$/src/Align.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+              <caret column="19" selection-start-column="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -165,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="838" />
   </component>
@@ -246,16 +269,18 @@
       <updated>1543488919792</updated>
       <workItem from="1543488921209" duration="2356000" />
       <workItem from="1543492534910" duration="11151000" />
+      <workItem from="1544266260442" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13507000" />
+    <option name="totallyTimeSpent" value="13512000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -322,19 +347,12 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test.java" />
-    <entry file="file://$PROJECT_DIR$/src/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppletForme.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestForme.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="135">
           <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -342,27 +360,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Align.java">
+    <entry file="file://$PROJECT_DIR$/src/AFormeGeometrique.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Carre.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="58" column="102" selection-start-line="58" selection-start-column="102" selection-end-line="58" selection-end-column="102" />
+        <state relative-caret-position="390">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -371,8 +379,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Cercle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        <state relative-caret-position="405">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -386,10 +394,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AFormeGeometrique.java">
+    <entry file="file://$PROJECT_DIR$/src/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="58" column="102" selection-start-line="58" selection-start-column="102" selection-end-line="58" selection-end-column="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Align.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -401,6 +426,11 @@
             <element signature="imports" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ComplexeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-267" />
       </provider>
     </entry>
   </component>

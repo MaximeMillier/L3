@@ -21,14 +21,14 @@ int main( int argc, char *argv[])
 {
     int line=0; // Etat de la ligne (lien de sortie): 1 si'l y un paquet en train de se transmetre.
     int callerID=0,localCallerID,departures=0;
-    
-    double prevTime = 0.0,newTime = 0.0,busyTime = 0.0,serviceTime=0.0,waitingTime = 0.0,residenceTime=0.0;
+
+    double prevTime = 0.0, newTime = 0.0, busyTime = 0.0,serviceTime=0.0, waitingTime = 0.0, residenceTime=0.0;
     node_t * fel = NULL;
     node_t * head = fel;
-    
+
     node_t * buffer = NULL;
     node_t * bhead = buffer;
-    
+
     // Check if the command line argument is correct
     if ( argc != 4 ) /* argc should be 4 for correct execution */
     {
@@ -58,10 +58,10 @@ int main( int argc, char *argv[])
         printf("Error opening file!\n");
         exit(1);
     }
-    
+
     // Assign a seed for the random number
     srand(RSEED);
-    
+
     insertEvent(&head,++callerID,'A',prevTime + expntl(ARR_TIME));
     // print_all(head,bhead);   // UNCOMMENT THIS TO VIEW THE FEL and the buffer
     while(1) {
@@ -69,11 +69,11 @@ int main( int argc, char *argv[])
         switch(head->event){
             case 'A':
                 // COMPLETEZ LE CODE
-                
+
                 // Stop creating new arrivals after the conditions are met (Stopping criterion)
-               if(callerID < MAX)		// Uncomment this to make use of the number of requests   
+               if(callerID < MAX)		// Uncomment this to make use of the number of requests
                     // if(prevTime < SIM_TIME)		// Uncomment this to make use of the total simulation time
-                    
+
                 // printf("Arrival Event\n");  // UNCOMMENT THIS TO VIEW THE FEL and the buffer
                 // print_all(head,bhead);		// UNCOMMENT THIS TO VIEW THE FEL and the buffer
                 break;
@@ -84,13 +84,13 @@ int main( int argc, char *argv[])
                 if(departures == MAX) 	// Uncomment this to make use of the number of requests
                     // if(departures == callerID)	// Uncomment this to make use of the total simulation time
                     goto Result;
-    
+
                 // printf("Departure Event\n"); // UNCOMMENT THIS TO VIEW THE FEL and the buffer
                 // print_all(head,bhead);		// UNCOMMENT THIS TO VIEW THE FEL and the buffer
                 break;
         }
     }
-    
+
 Result:
     // CLose file for writing
     fclose(f);

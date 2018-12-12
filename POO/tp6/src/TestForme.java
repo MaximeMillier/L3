@@ -9,10 +9,5 @@ class TestForme {
     Cercle ce = new Cercle(p, Color.BLUE, Color.BLUE, 80);
     Ellipse e = new Ellipse(p, Color.BLUE, Color.BLUE, 40,50);
     Rectangle r = new Rectangle(p, Color.BLUE, Color.BLUE,80,40);
-
-
-
-
-
   }
 }
